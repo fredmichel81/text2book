@@ -88,7 +88,9 @@ function TypingChat({ messages, lang }: TypingChatProps) {
           }>
             {messages[msgIdx].sender}
           </span>
-          <span>{typing}<span className="animate-pulse">|</span></span>
+          <span className="text-blue-200 underline cursor-pointer select-none break-all">
+            {typing}
+          </span>
         </div>
       )}
     </div>
