@@ -21,7 +21,7 @@ const englishMessages: Message[] = [
 const frenchMessages: Message[] = [
   { sender: "Client", text: "Bonjour, puis-je réserver une coupe de cheveux pour vendredi à 14h ?" },
   { sender: "Txt2Book", text: "Bonjour, bien sûr, nous avons une place pour vous. Puis-je avoir votre nom pour réserver le rendez-vous ?" },
-  { sender: "Client", text: "Je m\u0026apos;appelle Fred" },
+  { sender: "Client", text: "Je m'appelle Fred" },
   { sender: "Txt2Book", text: "Parfait Fred, un dépôt de 10$ est requis pour réserver votre place. Veuillez procéder ici :\nhttps://pay.txt2book.com/secure/12345" },
   { sender: "Txt2Book", text: "Paiement reçu ! Merci Fred, votre rendez-vous est confirmé pour vendredi à 14h00. À bientôt." },
 ];
