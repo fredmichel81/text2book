@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -67,7 +66,7 @@ export default function Home() {
               </div>
               <div className="self-start bg-gray-100 text-gray-900 rounded-2xl rounded-bl-sm px-4 py-2 shadow-sm text-left text-base font-medium max-w-[80%]">
                 <span className="block text-xs text-gray-400 mb-1">Client</span>
-                Je m'appelle Fred
+                Je m&apos;appelle Fred
               </div>
               <div className="self-end bg-blue-600 text-white rounded-2xl rounded-br-sm px-4 py-2 shadow text-left text-base font-semibold max-w-[80%]">
                 <span className="block text-xs text-blue-200 mb-1">Txt2Book</span>
