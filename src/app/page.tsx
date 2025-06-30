@@ -126,16 +126,15 @@ export default function Home() {
           <span className="inline-block px-3 py-1 mb-4 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold tracking-widest uppercase border border-blue-200">
             Early Access Waitlist
           </span>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-blue-900 mb-4">
-            Stop Losing Money to No-Shows
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-blue-900 mb-4 leading-tight">
+            Stop Losing Money to<br />
+            <span className="text-blue-700 block">No-Shows</span>
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700 font-medium mb-8 max-w-2xl mx-auto">
             Turn text messages into booked appointments. <span className="font-bold text-blue-700">Txt2Book</span> lets your customers book by SMS—AI handles the rest, integrates with your calendar, and secures payments to prevent no-shows.
           </h2>
           <a
-            href="https://forms.gle/your-google-form-link" // TODO: Replace with your actual Google Form link
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#waitlist-form"
             className="inline-block px-8 py-4 rounded-full bg-blue-700 text-white font-bold text-lg shadow-lg hover:bg-blue-900 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300"
           >
             Join the Txt2Book Waitlist
@@ -169,9 +168,9 @@ export default function Home() {
           })}
         </section>
         {/* Embedded Google Form Section */}
-        <section className="mt-16 w-full flex flex-col items-center justify-center">
+        <section id="waitlist-form" className="mt-16 w-full flex flex-col items-center justify-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-blue-900 mb-4">Join the Txt2Book Waitlist</h2>
-          <div className="w-full max-w-xl">
+          <div className="w-full max-w-3xl mx-auto">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdfC4AlDeOZ7g4Y2fArhR9fT1CAIvZnYUM2aaBBdt1pevM4zQ/viewform?embedded=true"
               width="100%"
@@ -185,19 +184,6 @@ export default function Home() {
               Loading…
             </iframe>
           </div>
-        </section>
-        {/* Final CTA Section */}
-        <section className="mt-16 w-full flex flex-col items-center justify-center">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-blue-900 mb-4">Ready to reduce no-shows and save time?</h2>
-          <p className="text-gray-700 mb-6">Join the Txt2Book waitlist and be among the first to try SMS-powered booking for your business.</p>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdfC4AlDeOZ7g4Y2fArhR9fT1CAIvZnYUM2aaBBdt1pevM4zQ/viewform?embedded=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-4 rounded-full bg-blue-700 text-white font-bold text-lg shadow-lg hover:bg-blue-900 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300"
-          >
-            Join the Txt2Book Waitlist
-          </a>
         </section>
       </main>
       <footer className="w-full flex justify-center pb-4">
