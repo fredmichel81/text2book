@@ -22,7 +22,7 @@ BookingBuddy/
 │   └── venv/           # Python virtual environment
 └── docs/               # Project documentation
     ├── PROJECT_SETUP.md
-    ├── AUTOREPONDEUR_PRO_SUMMARY.md
+    ├── BOOKINGBUDDY_BACKEND_SUMMARY.md
     └── REPOSITORY_MAPPING.md
 ```
 

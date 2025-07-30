@@ -24,7 +24,7 @@
 ## 📁 Project Structure
 
 ```
-autorepondeur-pro/
+backend/
 ├── app.py                          # Main Flask application
 ├── requirements.txt                # Python dependencies
 ├── env_template.txt               # Environment variables template
@@ -112,7 +112,7 @@ python test_app.py
 
 ## 📝 Development Notes
 
-- **Branch**: `autorepondeur-pro`
+- **Branch**: `backend`
 - **Repository**: https://github.com/fredmichel81/bookingbuddy
 - **Status**: Development/Testing
 - **Version**: 1.0.0

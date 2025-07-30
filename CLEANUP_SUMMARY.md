@@ -60,7 +60,7 @@ BookingBuddy/
 │   └── venv/                   # Python virtual environment
 └── docs/                       # Project documentation
     ├── PROJECT_SETUP.md        # Complete setup guide
-    ├── AUTOREPONDEUR_PRO_SUMMARY.md  # Backend overview
+    ├── BOOKINGBUDDY_BACKEND_SUMMARY.md  # Backend overview
     └── REPOSITORY_MAPPING.md   # Repository structure
 ```
 
@@ -75,7 +75,7 @@ BookingBuddy/
 ```
 text2book/
 ├── main                        # Original landing page only
-├── autorepondeur-pro           # Original mixed structure
+├── backend                     # Original mixed structure
 └── bookingbuddy-clean          # NEW: Clean, organized structure
 ```
 

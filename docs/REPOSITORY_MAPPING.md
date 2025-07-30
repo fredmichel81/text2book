@@ -17,7 +17,7 @@ bookingbuddy/
 ## 📊 Commit History
 
 ```
-* 0644581 (HEAD -> autorepondeur-pro, origin/autorepondeur-pro) Add project summary document
+* 0644581 (HEAD -> backend, origin/backend) Add project summary document
 * 4bb87c9 Add BookingBuddy Backend - AI-powered SMS assistant for small businesses
 * 1f3a004 (origin/main, main) Fix: prevent payment link overflow in SMS chat bubbles on mobile
 * c902a2a Polish: hero headline, anchor CTA, wider form, remove final CTA
@@ -81,7 +81,7 @@ main/
 
 ### File Structure
 ```
-autorepondeur-pro/
+backend/
 ├── .gitignore                          # Git ignore rules
 ├── .next/                              # Next.js build output (inherited)
 ├── node_modules/                       # Node.js dependencies (inherited)
@@ -89,7 +89,7 @@ autorepondeur-pro/
 ├── src/                                # Source code (inherited)
 ├── venv/                               # Python virtual environment
 ├── app.py                              # Main Flask application (9,131 bytes)
-├── AUTOREPONDEUR_PRO_SUMMARY.md        # Project summary (3,954 bytes)
+├── BOOKINGBUDDY_BACKEND_SUMMARY.md     # Project summary (3,954 bytes)
 ├── calendar_test.py                    # Google Calendar test (1,431 bytes)
 ├── env_template.txt                    # Environment variables template
 ├── google-calendar-credentials.json    # Google Calendar credentials
