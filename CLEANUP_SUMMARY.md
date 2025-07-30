@@ -6,7 +6,7 @@
 ```
 AR_Cursor/
 ├── BookingBuddy-App/           # Express.js backend (unused)
-├── BookingBuddy-pro/           # AutoRépondeur Pro Flask app
+├── BookingBuddy-pro/           # BookingBuddy Backend Flask app
 ├── bookingbuddy-pro-landing/   # Next.js landing page + Git repo
 ├── node_modules/               # Unused dependencies
 ├── package.json                # Unused package file
@@ -51,7 +51,7 @@ BookingBuddy/
 │   ├── tsconfig.json           # TypeScript configuration
 │   ├── eslint.config.mjs       # ESLint configuration
 │   └── postcss.config.mjs      # PostCSS configuration
-├── App/                        # Flask backend (AutoRépondeur Pro)
+├── App/                        # Flask backend (BookingBuddy Backend)
 │   ├── app.py                  # Main Flask application
 │   ├── requirements.txt        # Python dependencies
 │   ├── test_app.py             # Test suite
@@ -67,7 +67,7 @@ BookingBuddy/
 ## 🔄 Git Repository Status
 
 ### Repository Information
-- **Repository**: https://github.com/fredmichel81/text2book
+- **Repository**: https://github.com/fredmichel81/bookingbuddy
 - **Branch**: `bookingbuddy-clean`
 - **Remote**: https://github.com/fredmichel81/text2book.git
 
@@ -83,7 +83,7 @@ text2book/
 
 ### 1. **Eliminated Duplication**
 - Removed duplicate files between directories
-- Consolidated all AutoRépondeur Pro files into `App/`
+- Consolidated all BookingBuddy Backend files into `App/`
 - Consolidated all landing page files into `LandingPage/`
 
 ### 2. **Organized Structure**
@@ -148,5 +148,5 @@ text2book/
 ---
 
 **Cleanup Completed**: July 30, 2025  
-**Repository**: https://github.com/fredmichel81/text2book/tree/bookingbuddy-clean  
+**Repository**: https://github.com/fredmichel81/bookingbuddy  
 **Status**: ✅ Complete and organized 

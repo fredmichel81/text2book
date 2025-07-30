@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script for AutoRépondeur Pro
+Test script for BookingBuddy Backend
 This script helps test the application functionality without needing Twilio webhooks.
 """
 
@@ -98,7 +98,7 @@ def run_test_conversation():
 
 def main():
     """Main test function"""
-    print("🚀 AutoRépondeur Pro Test Suite")
+    print("🚀 BookingBuddy Backend Test Suite")
     print("=" * 40)
     
     # Test environment

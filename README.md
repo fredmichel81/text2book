@@ -4,8 +4,8 @@
 
 BookingBuddy is a comprehensive solution for small businesses to handle customer bookings via SMS. It consists of two main components:
 
-1. **Landing Page** - Marketing website with waitlist signup ([https://text2book.vercel.app/](https://text2book.vercel.app/))
-2. **AutoRépondeur Pro** - AI-powered SMS assistant backend
+1. **Landing Page** - Marketing website with waitlist signup ([https://bookingbuddy.vercel.app/](https://bookingbuddy.vercel.app/))
+2. **BookingBuddy Backend** - AI-powered SMS assistant backend
 
 ## 📁 Repository Structure
 
@@ -15,7 +15,7 @@ BookingBuddy/
 │   ├── src/             # React components
 │   ├── public/          # Static assets
 │   └── package.json     # Next.js dependencies
-├── App/                 # Flask backend (AutoRépondeur Pro)
+├── App/                 # Flask backend (BookingBuddy Backend)
 │   ├── app.py          # Main Flask application
 │   ├── requirements.txt # Python dependencies
 │   ├── test_app.py     # Test suite
@@ -82,12 +82,12 @@ Visit: http://localhost:5000
 ## 📖 Documentation
 
 - **[Project Setup Guide](docs/PROJECT_SETUP.md)** - Complete setup instructions
-- **[AutoRépondeur Pro Summary](docs/AUTOREPONDEUR_PRO_SUMMARY.md)** - Backend overview
+- **[BookingBuddy Backend Summary](docs/BOOKINGBUDDY_BACKEND_SUMMARY.md)** - Backend overview
 - **[Repository Mapping](docs/REPOSITORY_MAPPING.md)** - Detailed structure
 
 ## 🌐 Live Demo
 
-- **Landing Page**: [https://text2book.vercel.app/](https://text2book.vercel.app/)
+- **Landing Page**: [https://bookingbuddy.vercel.app/](https://bookingbuddy.vercel.app/)
 - **Backend**: Development/Testing phase
 
 ## 🔗 External Services

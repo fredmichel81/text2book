@@ -1,24 +1,24 @@
-# text2book Repository - Complete Mapping
+# BookingBuddy Repository - Complete Mapping
 
 ## 📍 Repository Information
 
-- **Repository URL**: https://github.com/fredmichel81/text2book
-- **Remote Origin**: https://github.com/fredmichel81/text2book.git
+- **Repository URL**: https://github.com/fredmichel81/bookingbuddy
+- **Remote Origin**: https://github.com/fredmichel81/bookingbuddy.git
 - **Current Location**: `/home/fme-inc/Documents/Project/AR_Cursor/bookingbuddy-pro-landing`
 
 ## 🌿 Branch Structure
 
 ```
-text2book/
-├── main (origin/main)                    # Txt2Book Landing Page
-└── autorepondeur-pro (origin/autorepondeur-pro)  # AutoRépondeur Pro Backend
+bookingbuddy/
+├── main (origin/main)                    # BookingBuddy Landing Page
+└── backend (origin/backend)              # BookingBuddy Backend
 ```
 
 ## 📊 Commit History
 
 ```
 * 0644581 (HEAD -> autorepondeur-pro, origin/autorepondeur-pro) Add project summary document
-* 4bb87c9 Add AutoRépondeur Pro - AI-powered SMS assistant for small businesses
+* 4bb87c9 Add BookingBuddy Backend - AI-powered SMS assistant for small businesses
 * 1f3a004 (origin/main, main) Fix: prevent payment link overflow in SMS chat bubbles on mobile
 * c902a2a Polish: hero headline, anchor CTA, wider form, remove final CTA
 * 236613d Embed Google Form waitlist and update CTA link
@@ -72,7 +72,7 @@ main/
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Modern UI**: Clean, professional design with Lucide icons
 
-## 📁 Branch: `autorepondeur-pro` - AutoRépondeur Pro Backend
+## 📁 Branch: `backend` - BookingBuddy Backend
 
 ### Project Type
 - **Framework**: Flask 3.0.3
@@ -107,7 +107,7 @@ autorepondeur-pro/
 └── tsconfig.json                       # TypeScript configuration (inherited)
 ```
 
-### Key Features (autorepondeur-pro branch)
+### Key Features (backend branch)
 - **SMS Webhook**: Twilio integration for incoming messages
 - **AI Processing**: OpenAI GPT-4o for language detection and responses
 - **Database Integration**: Supabase for conversation logging
@@ -119,7 +119,7 @@ autorepondeur-pro/
 
 ## 🔄 Branch Comparison
 
-| Feature | main | autorepondeur-pro |
+| Feature | main | backend |
 |---------|------|-------------------|
 | **Project Type** | Frontend Landing Page | Backend API |
 | **Framework** | Next.js | Flask |
@@ -138,7 +138,7 @@ autorepondeur-pro/
   - `src/app/page.tsx`: 9.2KB
   - `node_modules/`: ~12MB
 
-### AutoRépondeur Pro Branch
+### BookingBuddy Backend Branch
 - **Total Files**: ~25 files (includes inherited files)
 - **Largest Files**:
   - `app.py`: 9.1KB
@@ -153,7 +153,7 @@ autorepondeur-pro/
 - **Build Command**: `npm run build`
 - **Output**: Static files in `.next/` directory
 
-### AutoRépondeur Pro Branch (Backend)
+### BookingBuddy Backend Branch (Backend)
 - **Platform**: Heroku, AWS, Google Cloud, or any Python hosting
 - **Requirements**: Python 3.13, Flask, external APIs
 - **Environment**: Need `.env` file with API keys
@@ -169,7 +169,7 @@ npm run dev
 
 ### Working on Backend
 ```bash
-git checkout autorepondeur-pro
+git checkout backend
 source venv/bin/activate
 pip install -r requirements.txt
 python app.py
@@ -177,14 +177,14 @@ python app.py
 
 ## 🔗 Repository URLs
 
-- **Main Repository**: https://github.com/fredmichel81/text2book
-- **Main Branch**: https://github.com/fredmichel81/text2book/tree/main
-- **AutoRépondeur Pro Branch**: https://github.com/fredmichel81/text2book/tree/autorepondeur-pro
-- **Pull Request**: https://github.com/fredmichel81/text2book/pull/new/autorepondeur-pro
+- **Main Repository**: https://github.com/fredmichel81/bookingbuddy
+- **Main Branch**: https://github.com/fredmichel81/bookingbuddy/tree/main
+- **Backend Branch**: https://github.com/fredmichel81/bookingbuddy/tree/backend
+- **Pull Request**: https://github.com/fredmichel81/bookingbuddy/pull/new/backend
 
 ---
 
 **Last Updated**: July 30, 2025  
 **Repository Status**: Active Development  
-**Branches**: 2 (main + autorepondeur-pro)  
+**Branches**: 2 (main + backend)  
 **Total Commits**: 10 

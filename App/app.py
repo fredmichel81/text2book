@@ -231,7 +231,7 @@ def health_check():
 def test_endpoint():
     """Test endpoint for development"""
     return jsonify({
-        "message": "AutoRépondeur Pro is running!",
+        "message": "BookingBuddy Backend is running!",
         "endpoints": {
             "sms": "/sms (POST)",
             "health": "/health (GET)",

@@ -1,8 +1,8 @@
-# AutoRépondeur Pro - Project Setup Guide
+# BookingBuddy Backend - Project Setup Guide
 
 ## 🎯 Project Overview
 
-AutoRépondeur Pro is an AI-powered SMS assistant for small businesses (e.g., barbershops) that:
+BookingBuddy Backend is an AI-powered SMS assistant for small businesses (e.g., barbershops) that:
 
 - Responds to customer texts via Twilio
 - Detects language (French/English) using GPT-4o

@@ -1,8 +1,8 @@
-# AutoRépondeur Pro - Project Summary
+# BookingBuddy Backend - Project Summary
 
 ## 🎯 Project Overview
 
-**AutoRépondeur Pro** is a comprehensive AI-powered SMS assistant designed for small businesses, particularly barbershops and service-based businesses. The system automatically handles customer inquiries, detects languages, manages bookings, and provides intelligent responses through SMS.
+**BookingBuddy Backend** is a comprehensive AI-powered SMS assistant designed for small businesses, particularly barbershops and service-based businesses. The system automatically handles customer inquiries, detects languages, manages bookings, and provides intelligent responses through SMS.
 
 ## 🚀 Key Features
 
@@ -113,7 +113,7 @@ python test_app.py
 ## 📝 Development Notes
 
 - **Branch**: `autorepondeur-pro`
-- **Repository**: https://github.com/fredmichel81/text2book
+- **Repository**: https://github.com/fredmichel81/bookingbuddy
 - **Status**: Development/Testing
 - **Version**: 1.0.0
 
@@ -130,4 +130,4 @@ python test_app.py
 **Created**: July 30, 2025  
 **Last Updated**: July 30, 2025  
 **Developer**: Fred Michel  
-**Repository**: https://github.com/fredmichel81/text2book/tree/autorepondeur-pro 
+**Repository**: https://github.com/fredmichel81/bookingbuddy 
